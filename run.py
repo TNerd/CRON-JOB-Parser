@@ -1,4 +1,4 @@
-```#!/usr/bin/python
+#!/usr/bin/python
 ###############################################################################
 import sys, re
 ###############################################################################
@@ -72,4 +72,4 @@ def if_this_if_that(content):
 #
 for match_line in (sys.stdin.readlines()):
     if re.match("(\d\s|\d\d|\*)", match_line):
-        if_this_if_that(match_line)```
+        if_this_if_that(match_line)
